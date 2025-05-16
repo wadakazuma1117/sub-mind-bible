@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目次 - 潜在意識 完全バイブル</title> {/* ページの<title>も修正 */}
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+            padding: 1rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 1rem auto;
+            background-color: #ffffff;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        }
+        h1 { /* メインタイトル */
+            font-size: 2.25rem; /* PDFの表紙に合わせて調整 */
+            font-weight: 700;
+            color: #3730a3; /* PDFの表紙の紫を参考に */
+            text-align: center;
+            margin-bottom: 0.25rem; /* サブタイトルとの間隔を詰める */
+        }
+        h2 { /* サブタイトル */
+            font-size: 1.25rem; /* PDFの表紙に合わせて調整 */
+            font-weight: 500;
+            color: #4f46e5; /* PDFの表紙の紫を参考に */
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        .toc-main-title { /* 「目次」という見出し */
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #3730a3; /* h1より少し薄い紫 */
+            text-align: center;
+            margin-bottom: 0.75rem;
+        }
+         .toc-subtitle { /* 目次の下の説明文 */
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #6b7280;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .section-heading {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: #4338ca;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #ddd6fe;
+        }
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+        .toc-card {
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            padding: 1rem;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .toc-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+        .toc-card a {
+            text-decoration: none;
+            display: block;
+            width: 100%;
+        }
+        .item-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.375rem;
+        }
+        .item-number {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #4f46e5;
+            min-width: 24px;
+            line-height: 1.4;
+        }
+        .item-title {
+            font-weight: 600;
+            color: #1f2937;
+            font-size: 0.95rem;
+            transition: color 0.2s ease-in-out;
+        }
+        .toc-card a:hover .item-title {
+            color: #4f46e5;
+        }
+        .item-description {
+            font-size: 0.8rem;
+            color: #6b7280;
+            line-height: 1.5;
+            padding-left: 24px;
+        }
+        .toc-icon {
+            font-size: 0.9em;
+            color: #818cf8;
+            margin-right: 0.5rem;
+            position: relative;
+            top: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>潜在意識 完全バイブル</h1> {/* ★修正 */}
+        <h2>潜在意識の理解と実践的活用のための総合ガイド</h2> {/* ★修正 */}
+
+        <div class="toc-main-title">目次</div>
+        <p class="toc-subtitle">普遍的メカニズムの解説から分野別応用まで 各セクション詳細解説</p>
+
+        <section>
+            <h3 class="section-heading"><i class="fas fa-book-open toc-icon"></i>基礎編: 潜在意識の構造と原理</h3>
+            <div class="toc-grid">
+                <div class="toc-card">
+                    <a href="slide3.html">
+                        <div class="item-header">
+                            <span class="item-number">1</span>
+                            <span class="item-title"><i class="fas fa-lightbulb toc-icon"></i>潜在意識とは - 基本概念と重要性</span>
+                        </div>
+                        <p class="item-description">人間の意識全体の約90~95%を占める、自覚していない心の領域...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide4.html">
+                        <div class="item-header">
+                            <span class="item-number">2</span>
+                            <span class="item-title"><i class="fas fa-layer-group toc-icon"></i>意識の階層構造 - 9段階の意識レベル</span>
+                        </div>
+                         <p class="item-description">人間の意識は9つの階層から構成され、それぞれが異なる機能と役割を担っています...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide5.html">
+                        <div class="item-header">
+                            <span class="item-number">3</span>
+                            <span class="item-title"><i class="fas fa-cogs toc-icon"></i>現実創造のメカニズム - 信念・感情・思考のプロセス</span>
+                        </div>
+                        <p class="item-description">私たちの現実は内面の投影です。潜在意識内の信念が感情を生み...</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-heading"><i class="fas fa-key toc-icon"></i>原理編: 潜在意識の法則と鍵</h3>
+            <div class="toc-grid">
+                <div class="toc-card">
+                    <a href="slide6.html">
+                        <div class="item-header">
+                            <span class="item-number">4</span>
+                            <span class="item-title"><i class="fas fa-star toc-icon"></i>ワクワクに従う - 内なる導きの法則</span>
+                        </div>
+                        <p class="item-description">「ワクワク」は単なる一時的な高揚感ではなく、あなたの最も本当の自分自身の物理的な翻訳...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide7.html">
+                        <div class="item-header">
+                            <span class="item-number">5</span>
+                            <span class="item-title"><i class="fas fa-list-ol toc-icon"></i>ザ・フォーミュラ - 現実創造の5ステップ</span>
+                        </div>
+                        <p class="item-description">望む現実を創造するための具体的な5つのステップから成る実践法...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide8.html">
+                        <div class="item-header">
+                            <span class="item-number">6</span>
+                            <span class="item-title"><i class="fas fa-retweet toc-icon"></i>信念の力と変容 - 制限から解放へ</span>
+                        </div>
+                        <p class="item-description">信念は現実創造の基盤であり、私たちの行動、感情、思考パターンに影響を与えます...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide9.html">
+                        <div class="item-header">
+                            <span class="item-number">7</span>
+                            <span class="item-title"><i class="fas fa-tachometer-alt toc-icon"></i>感情のナビゲーション - 波動を高め、現実をシフトする</span>
+                        </div>
+                        <p class="item-description">感情は単なる反応ではなく、潜在意識の状態を示す指標であり、現実創造の強力なエネルギー源...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide10.html">
+                        <div class="item-header">
+                            <span class="item-number">8</span>
+                            <span class="item-title"><i class="fas fa-random toc-icon"></i>シンクロニシティ - 宇宙からのメッセージを読み解く</span>
+                        </div>
+                        <p class="item-description">シンクロニシティは、私たちの内なる状態と外側の世界との間に存在する、目に見えない繋がりを示唆...</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-heading"><i class="fas fa-tools toc-icon"></i>実践編: 潜在意識へのテクニック</h3>
+            <div class="toc-grid">
+                <div class="toc-card">
+                    <a href="slide11.html">
+                        <div class="item-header">
+                            <span class="item-number">9</span>
+                            <span class="item-title"><i class="fas fa-psychology toc-icon"></i>心理学的テクニック - 潜在意識へのアプローチ法</span>
+                        </div>
+                        <p class="item-description">潜在意識にアクセスし変容させるための様々な心理学的アプローチがあります...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide12.html">
+                        <div class="item-header">
+                            <span class="item-number">10</span>
+                            <span class="item-title"><i class="fas fa-magic toc-icon"></i>実践テクニック - アファメーションと視覚化</span>
+                        </div>
+                         <p class="item-description">アファメーションと視覚化は潜在意識に直接働きかけ、新しいプログラムを刷り込むための強力なテクニック...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide13.html">
+                        <div class="item-header">
+                            <span class="item-number">11</span>
+                            <span class="item-title"><i class="fas fa-peace toc-icon"></i>瞑想と呼吸法 - 内なる静寂への道</span>
+                        </div>
+                        <p class="item-description">瞑想や特定の呼吸法は、心を静め、顕在意識のノイズを鎮め、潜在意識やハイヤーセルフと繋がりやすくする...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide14.html">
+                        <div class="item-header">
+                            <span class="item-number">12</span>
+                            <span class="item-title"><i class="fas fa-unlock-alt toc-icon"></i>制限的観念のブロック解除 - 心の抵抗を解放する</span>
+                        </div>
+                        <p class="item-description">制限的な観念やブロックは、私たちの潜在意識に深く根付き、望む現実の創造を妨げています...</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-heading"><i class="fas fa-puzzle-piece toc-icon"></i>応用編: 分野別実践ガイド</h3>
+            <div class="toc-grid">
+                <div class="toc-card">
+                    <a href="slide15.html">
+                        <div class="item-header">
+                            <span class="item-number">13</span>
+                            <span class="item-title"><i class="fas fa-comments toc-icon"></i>カウンセリングと心理療法における応用</span>
+                        </div>
+                         <p class="item-description">カウンセラーやセラピストは、クライアントの潜在意識に働きかけることで...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide16.html">
+                        <div class="item-header">
+                            <span class="item-number">14</span>
+                            <span class="item-title"><i class="fas fa-briefcase toc-icon"></i>ビジネスと成功における応用</span>
+                        </div>
+                        <p class="item-description">潜在意識の力は、個人のキャリア形成、リーダーシップ、目標達成に大きく貢献します...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide17.html">
+                        <div class="item-header">
+                            <span class="item-number">15</span>
+                            <span class="item-title"><i class="fas fa-seedling toc-icon"></i>スピリチュアルな探求と自己成長における応用</span>
+                        </div>
+                        <p class="item-description">潜在意識は、自己の内なる神性や宇宙意識と繋がるための扉です...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide18.html">
+                        <div class="item-header">
+                            <span class="item-number">16</span>
+                            <span class="item-title"><i class="fas fa-dumbbell toc-icon"></i>スポーツと学習における応用</span>
+                        </div>
+                        <p class="item-description">潜在意識は、運動能力の向上、効率的な学習、新しいスキルの習得においても決定的な役割を...</p>
+                    </a>
+                </div>
+                 <div class="toc-card">
+                    <a href="slide19.html">
+                        <div class="item-header">
+                            <span class="item-number">17</span>
+                            <span class="item-title"><i class="fas fa-bullhorn toc-icon"></i>マーケティングと広告における潜在意識の活用</span>
+                        </div>
+                        <p class="item-description">消費者の購買行動の多くは潜在意識レベルでの感情や欲求に動かされています...</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-heading"><i class="fas fa-project-diagram toc-icon"></i>統合編: 全体統合と実践計画</h3>
+            <div class="toc-grid">
+                <div class="toc-card">
+                    <a href="slide20.html">
+                        <div class="item-header">
+                            <span class="item-number">18</span>
+                            <span class="item-title"><i class="fas fa-sitemap toc-icon"></i>実践的統合アプローチ - 潜在意識活用の総合戦略</span>
+                        </div>
+                        <p class="item-description">これまでに説明してきた潜在意識の原理と様々なテクニックを日常生活の中で...</p>
+                    </a>
+                </div>
+                <div class="toc-card">
+                    <a href="slide21.html">
+                        <div class="item-header">
+                            <span class="item-number">19</span>
+                            <span class="item-title"><i class="fas fa-clipboard-check toc-icon"></i>まとめと実践アクションプラン</span>
+                        </div>
+                        <p class="item-description">潜在意識の力を実際の人生で活用するための具体的なアクションプランと継続的な実践のための...</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
