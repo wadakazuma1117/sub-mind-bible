@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>潜在意識 完全バイブル</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background: linear-gradient(120deg, #f8f9fa 0%, #e9ecef 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .slide {
+            width: 1280px;
+            min-height: 720px;
+            position: relative;
+
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 64px;
+            font-weight: 700;
+            background: linear-gradient(45deg, #2c3e50, #4a6fa5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.2;
+        }
+        .subtitle {
+            font-size: 32px;
+            color: #5a6e8c;
+        }
+        .audience-box {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        .audience-item {
+            display: flex;
+            align-items: center;
+            margin: 12px 0;
+        }
+        .audience-icon {
+            background-color: #edf2f7;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 16px;
+            color: #4a6fa5;
+        }
+        .credit {
+            position: relative;
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 24px;
+            background-color: rgba(74, 111, 165, 0.08);
+            border-radius: 30px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #2c3e50;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .credit:hover {
+            background-color: rgba(74, 111, 165, 0.12);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .credit-icon {
+            margin-right: 12px;
+            color: #4a6fa5;
+            font-size: 22px;
+        }
+    </style>
+<style id="slide-selected-style">
+  [data-slide-selected]::before
+  /* [data-slide-hover-selected]::before */ {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    padding: 4px;
+    border-radius: 0px;
+    outline: 2px solid #0f7fff !important;
+    z-index: 10000;
+    pointer-events: none;
+  }
+
+ /* [data-slide-hover-selected], */
+  [data-slide-selected] {
+    position: relative;
+    outline: none;
+    cursor: default;
+  }
+
+  img[data-slide-selected],
+  img[data-slide-hover-selected],
+  [data-slide-hover-selected],
+  [item-slide-click-selected],
+  [item-slide-selected] {
+    border: 2px solid #0f7fff !important;
+  }
+
+
+</style><script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script><script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script></head>
+<body>
+    <div class="slide flex flex-col justify-between p-16">
+        <div class="mt-8 mb-8 flex-grow flex flex-col justify-center items-center text-center">
+            <h1 class="title mb-8">潜在意識 完全バイブル</h1>
+            <h2 class="subtitle mb-12">潜在意識の理解と実践的活用のための総合ガイド</h2>
+            
+            <div class="credit">
+                Kazuma Wada
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ザ・フォーミュラ - 現実創造の5ステップ</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background: linear-gradient(120deg, #f8f9fa 0%, #e9ecef 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .slide {
+            width: 1280px;
+            min-height: 720px;
+            position: relative;
+
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 40px;
+            font-weight: 700;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+        .content-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+        }
+        .content-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .section-divider {
+            display: flex;
+            align-items: center;
+            margin: 12px 0;
+        }
+        .section-divider::before,
+        .section-divider::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background-color: #cbd5e0;
+        }
+        .section-divider-text {
+            margin: 0 12px;
+            font-weight: 600;
+            white-space: nowrap;
+            color: #4a5568;
+        }
+        .formula-item {
+            background-color: #e6f2ff;
+            border-left: 4px solid #3498db;
+        }
+        .step-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-bottom: 12px;
+            transition: all 0.2s ease;
+        }
+        .step-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .step-number {
+            background-color: #3498db;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .implementation-item {
+            background-color: #e8f8f5;
+            border-left: 4px solid #1abc9c;
+        }
+        .caution-item {
+            background-color: #fff7e6;
+            border-left: 4px solid #f39c12;
+        }
+        .key-point {
+            background-color: #f0f3f8;
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide p-10">
+        <h1 class="title">5.ザ・フォーミュラ - 現実創造の5ステップ</h1>
+        
+        <div class="mb-4">
+            <p class="text-lg text-gray-700">望む現実を創造するための具体的な5つのステップから成る実践法。このフォーミュラを一貫して実践することで、現実を意図的に創り出すプロセスを加速させることができます。</p>
+        </div>
+        
+        <!-- フォーミュラの概要 -->
+        <div class="section-divider">
+            <span class="section-divider-text bg-white px-3">
+                <i class="fas fa-magic text-blue-500 mr-2"></i>フォーミュラの全体像
+            </span>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-4 mb-6">
+            <div class="content-card formula-item p-4">
+                <div class="flex items-center mb-3">
+                    <i class="fas fa-cogs text-blue-500 text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold text-blue-800">フォーミュラの基本原理</h3>
+                </div>
+                <ul class="text-gray-700 space-y-1">
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i><strong>調和の法則に基づく:</strong> 自分自身、ハイヤーセルフ、宇宙との調和を最大化する方向への行動指針。</li>
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i><strong>自然な流れの活用:</strong> 抵抗や強制ではなく、自然なフローと共鳴を活用するプロセス。</li>
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i><strong>無限の可能性へのアクセス:</strong> 量子場のすべての可能性から最適なものを引き寄せるためのチューニング方法。</li>
+                    <li><i class="fas fa-check-circle text-blue-500 mr-2"></i><strong>循環的性質:</strong> 線形ではなく、継続的に繰り返し実践することで効果が増大する。</li>
+                </ul>
+            </div>
+            
+            <div class="content-card formula-item p-4">
+                <div class="flex items-center mb-3">
+                    <i class="fas fa-lightbulb text-blue-500 text-2xl mr-3"></i>
+                    <h3 class="text-xl font-bold text-blue-800">フォーミュラの実践的価値</h3>
+                </div>
+                <ul class="text-gray-700 space-y-1">
+                    <li><i class="fas fa-arrow-circle-right text-blue-500 mr-2"></i><strong>自動操縦の再設定:</strong> 意識と潜在意識を同じ方向に向け、自動的な現実創造プロセスを再調整する。</li>
+                    <li><i class="fas fa-arrow-circle-right text-blue-500 mr-2"></i><strong>適用範囲の広さ:</strong> 人間関係、仕事、健康、経済状況など、あらゆる領域に応用可能。</li>
+                    <li><i class="fas fa-arrow-circle-right text-blue-500 mr-2"></i><strong>シンプルさと効果:</strong> 複雑な手法や長期間のトレーニングなしに、即座に実践開始できる。</li>
+                    <li><i class="fas fa-arrow-circle-right text-blue-500 mr-2"></i><strong>持続的な変化:</strong> 表面的な行動変容ではなく、波動レベルでの根本的な変化をもたらす。</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 5つのステップ詳細 -->
+        <div class="section-divider">
+            <span class="section-divider-text bg-white px-3">
+                <i class="fas fa-list-ol text-blue-500 mr-2"></i>5つのステップ詳細
+            </span>
+        </div>
+        
+        <div class="grid grid-cols-1 gap-2 mb-4">
+            <div class="step-item p-3 border-l-4 border-blue-500">
+                <div class="flex items-center">
+                    <span class="step-number">1</span>
+                    <h3 class="text-lg font-bold text-blue-800">毎瞬、可能な限り、最もワクワクすることを行動に移す</h3>
+                </div>
+                <div class="ml-10 mt-1 text-gray-700">
+                    <p class="text-sm"><strong>定義:</strong> 瞬間瞬間、自分が最も情熱を感じる、興奮する、喜びを感じる活動や方向性を特定し、実際に行動に移す。</p>
+                    <div class="grid grid-cols-2 gap-2 mt-1">
+                        <div class="key-point">
+                            <i class="fas fa-thumbs-up text-green-500 mr-1"></i> <strong>実践ポイント:</strong>
+                            <ul class="text-xs">
+                                <li>• 小さなワクワクでも見逃さない</li>
+                                <li>• 複数のワクワクがある場合は、その時点で最も強いものを選択</li>
+                                <li>• 社会的義務と本当のワクワクを区別する</li>
+                            </ul>
+                        </div>
+                        <div class="key-point">
+                            <i class="fas fa-exclamation-triangle text-yellow-500 mr-1"></i> <strong>注意点:</strong>
+                            <ul class="text-xs">
+                                <li>• 一時的な快楽と真のワクワクを混同しない</li>
+                                <li>• 思考ではなく、胸や心の感覚に注目</li>
+                                <li>• 選択肢がない場合は、現状の中で最もワクワクするアプローチを見つける</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="step-item p-3 border-l-4 border-blue-500">
+                <div class="flex items-center">
+                    <span class="step-number">2</span>
+                    <h3 class="text-lg font-bold text-blue-800">その行動を、能力の限り最大限に行う</h3>
+                </div>
+                <div class="ml-10 mt-1 text-gray-700">
+                    <p class="text-sm"><strong>定義:</strong> 選んだワクワクする活動に対して、その時点での自分の能力、資源、時間の範囲内で最善を尽くす。</p>
+                    <div class="grid grid-cols-2 gap-2 mt-1">
+                        <div class="key-point">
+                            <i class="fas fa-thumbs-up text-green-500 mr-1"></i> <strong>実践ポイント:</strong>
+                            <ul class="text-xs">
+                                <li>• 完璧主義ではなく、「今の自分にできる最善」を基準にする</li>
+                                <li>• 全身全霊で取り組み、行動にエネルギーを注ぐ</li>
+                                <li>• 能力以上のことを期待せず、今の自分の限界を受け入れる</li>
+                            </ul>
+                        </div>
+                        <div class="key-point">
+                            <i class="fas fa-exclamation-triangle text-yellow-500 mr-1"></i> <strong>注意点:</strong>
+                            <ul class="text-xs">
+                                <li>• 「ベストを尽くす」ことと「自分を追い込む」ことの違いを理解する</li>
+                                <li>• 比較や競争ではなく、自分自身の基準で最善を尽くす</li>
+                                <li>• 過度の準備や計画で行動を遅らせない</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="step-item p-3 border-l-4 border-blue-500">
+                <div class="flex items-center">
+                    <span class="step-number">3</span>
+                    <h3 class="text-lg font-bold text-blue-800">特定の結果に対する執着を完全に手放す</h3>
+                </div>
+                <div class="ml-10 mt-1 text-gray-700">
+                    <p class="text-sm"><strong>定義:</strong> 行動の結果に関して「こうあるべき」「こうなるはず」という先入観や期待を持たず、結果の可能性を完全に開いた状態を維持する。</p>
+                    <div class="grid grid-cols-2 gap-2 mt-1">
+                        <div class="key-point">
+                            <i class="fas fa-thumbs-up text-green-500 mr-1"></i> <strong>実践ポイント:</strong>
+                            <ul class="text-xs">
+                                <li>• プロセス自体を楽しみ、結果よりも体験に価値を置く</li>
+                                <li>• 「宇宙の知恵」や「より広い視点」を信頼する</li>
+                                <li>• 「これ以上のものが来るかもしれない」と可能性を開いておく</li>
+                            </ul>
+                        </div>
+                        <div class="key-point">
+                            <i class="fas fa-exclamation-triangle text-yellow-500 mr-1"></i> <strong>注意点:</strong>
+                            <ul class="text-xs">
+                                <li>• 目標と執着の違いを理解する（方向性は保ちつつ、特定の形にこだわらない）</li>
+                                <li>• 「手放す」ことは「諦める」ことではない</li>
+                                <li>• 期待と希望の違いを認識する</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="step-item p-3 border-l-4 border-blue-500">
+                <div class="flex items-center">
+                    <span class="step-number">4</span>
+                    <h3 class="text-lg font-bold text-blue-800">何が起ころうとも、ポジティブな状態でいることを選択する</h3>
+                </div>
+                <div class="ml-10 mt-1 text-gray-700">
+                    <p class="text-sm"><strong>定義:</strong> どんな状況、結果、挑戦に直面しても、意識的にポジティブな感情状態、建設的な姿勢、前向きな解釈を選択し続ける。</p>
+                    <div class="grid grid-cols-2 gap-2 mt-1">
+                        <div class="key-point">
+                            <i class="fas fa-thumbs-up text-green-500 mr-1"></i> <strong>実践ポイント:</strong>
+                            <ul class="text-xs">
+                                <li>• どんな出来事にも意味や価値、学びの機会があると見なす</li>
+                                <li>• ネガティブな感情が生じても、それを認め、処理し、手放す</li>
+                                <li>• 感謝の実践を通じてポジティブな状態へと戻る</li>
+                            </ul>
+                        </div>
+                        <div class="key-point">
+                            <i class="fas fa-exclamation-triangle text-yellow-500 mr-1"></i> <strong>注意点:</strong>
+                            <ul class="text-xs">
+                                <li>• 「ポジティブでいる」ことは感情の抑圧ではなく、感情の変容を意味する</li>
+                                <li>• 強制的なポジティブ思考ではなく、真の内面のシフトが重要</li>
+                                <li>• 挑戦やネガティブな状況は成長の機会として再解釈する</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="step-item p-3 border-l-4 border-blue-500">
+                <div class="flex items-center">
+                    <span class="step-number">5</span>
+                    <h3 class="text-lg font-bold text-blue-800">自分自身の信念体系を絶えず探求し、制限的信念を解放する</h3>
+                </div>
+                <div class="ml-10 mt-1 text-gray-700">
+                    <p class="text-sm"><strong>定義:</strong> 特に恐れに基づくものを中心に、自分の持つ制限的な信念を継続的に特定し、それが真実であるかを吟味し、解放していくプロセス。</p>
+                    <div class="grid grid-cols-2 gap-2 mt-1">
+                        <div class="key-point">
+                            <i class="fas fa-thumbs-up text-green-500 mr-1"></i> <strong>実践ポイント:</strong>
+                            <ul class="text-xs">
+                                <li>• ネガティブな感情が湧いた時に「何を信じているから、この感情を感じているのか？」と問いかける</li>
+                                <li>• 自己観察と自己探求を生活の一部にする</li>
+                                <li>• 発見した制限的信念は書き出し、力づける信念に置き換える</li>
+                            </ul>
+                        </div>
+                        <div class="key-point">
+                            <i class="fas fa-exclamation-triangle text-yellow-500 mr-1"></i> <strong>注意点:</strong>
+                            <ul class="text-xs">
+                                <li>• 信念を変えることと、信念を否定することの違いを理解する</li>
+                                <li>• 外部から取り込んだ信念と、自分自身の真の信念を区別する</li>
+                                <li>• 信念は発見された時点で既に変化し始めていることを信頼する</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- フォーミュラの実践と応用 -->
+        <div class="section-divider">
+            <span class="section-divider-text bg-white px-3">
+                <i class="fas fa-tools text-teal-500 mr-2"></i>実践とコツ
+            </span>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-4">
+            <div class="content-card implementation-item p-4">
+                <div class="flex items-center mb-2">
+                    <i class="fas fa-puzzle-piece text-teal-500 text-xl mr-2"></i>
+                    <h3 class="text-lg font-bold text-teal-800">実践のための具体的アプローチ</h3>
+                </div>
+                <ul class="text-gray-700 text-sm space-y-1">
+                    <li><i class="fas fa-angle-right text-teal-500 mr-1"></i> <strong>朝の決意:</strong> 起床時に5ステップを思い出し、その日一日をフォーミュラに従って生きることを決意する。</li>
+                    <li><i class="fas fa-angle-right text-teal-500 mr-1"></i> <strong>ワクワク・トラッカー:</strong> 日記やアプリでワクワクの度合い、行動、結果を記録し、パターンを認識する。</li>
+                    <li><i class="fas fa-angle-right text-teal-500 mr-1"></i> <strong>ミニ・リマインダー:</strong> 5ステップを要約したカードや付箋を持ち歩き、定期的に確認する。</li>
+                    <li><i class="fas fa-angle-right text-teal-500 mr-1"></i> <strong>リフレクション・タイム:</strong> 日の終わりに5ステップの実践状況を振り返り、次の日の改善点を特定する。</li>
+                    <li><i class="fas fa-angle-right text-teal-500 mr-1"></i> <strong>環境デザイン:</strong> フォーミュラを思い出させるビジュアルキュー（アート、オブジェなど）を生活空間に取り入れる。</li>
+                </ul>
+            </div>
+            
+            <div class="content-card caution-item p-4">
+                <div class="flex items-center mb-2">
+                    <i class="fas fa-shield-alt text-yellow-500 text-xl mr-2"></i>
+                    <h3 class="text-lg font-bold text-yellow-800">よくある障害とその克服法</h3>
+                </div>
+                <ul class="text-gray-700 text-sm space-y-1">
+                    <li><i class="fas fa-times-circle text-yellow-500 mr-1"></i> <strong>「何にもワクワクしない」時:</strong> 小さな選択肢から始め、どれがわずかでも気分が良くなるかに注目。恐れや抑うつが強い場合は専門家の助けを求める。</li>
+                    <li><i class="fas fa-times-circle text-yellow-500 mr-1"></i> <strong>「理屈で考えすぎる」罠:</strong> 論理的な分析を一時停止し、呼吸に集中して、身体感覚を優先する練習をする。</li>
+                    <li><i class="fas fa-times-circle text-yellow-500 mr-1"></i> <strong>初期の「結果がない」焦り:</strong> 小さな変化や内面のシフトにも気づき、祝う習慣をつける。急激な変化を期待せず、根本からの変容を信頼する。</li>
+                    <li><i class="fas fa-times-circle text-yellow-500 mr-1"></i> <strong>社会的プレッシャーとの葛藤:</strong> 自分の真実と他者の期待を区別し、内なる声を優先する勇気を培う。</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- まとめ -->
+        <div class="mt-4 bg-white p-4 rounded-lg shadow-sm">
+            <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
+                <i class="fas fa-key text-blue-500 mr-2"></i>フォーミュラ実践のキーポイント
+            </h2>
+            <div class="grid grid-cols-3 gap-3">
+                <div class="bg-blue-50 p-2 rounded">
+                    <h3 class="text-md font-medium text-blue-800"><i class="fas fa-sync-alt text-blue-500 mr-1"></i>一貫性と継続</h3>
+                    <p class="text-gray-700 text-xs">5ステップを日常の習慣として定着させることで効果が最大化。一時的な実践ではなく、生き方としての採用が重要。</p>
+                </div>
+                <div class="bg-green-50 p-2 rounded">
+                    <h3 class="text-md font-medium text-green-800"><i class="fas fa-heart text-green-500 mr-1"></i>自己許容と柔軟性</h3>
+                    <p class="text-gray-700 text-xs">完璧な実践を目指さず、試行錯誤のプロセスとして取り組む。自分を責めず、何度でも新たに始める寛容さを持つ。</p>
+                </div>
+                <div class="bg-purple-50 p-2 rounded">
+                    <h3 class="text-md font-medium text-purple-800"><i class="fas fa-magic text-purple-500 mr-1"></i>信頼と委ね</h3>
+                    <p class="text-gray-700 text-xs">現実創造のプロセスを信頼し、ハイヤーセルフと宇宙の叡智に委ねる。あらゆる経験が学びと成長のために完璧である。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
